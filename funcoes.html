@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+
+
+
+  //função sem parametro e sem retorno
+
+  function teste(){
+    alert('Olá');
+  }
+
+  //função com parametro e sem retorno
+
+  function teste2(mensagem){
+    alert(mensagem);
+  }
+
+  //funçao sem parametro e com retorno
+
+  function numeroPremiadoMega(){
+    return "10,37,39,41,50,59";
+  }
+
+    //função com parametro e com retorno
+
+    function retornarParOuImpar(numero){
+        numero = parseInt(numero);
+
+        if(numero % 2 != 0){
+            return "Impar"
+        }else{
+            return "Par"
+        }
+    }
+
+  var numero = prompt("Digite um número: ")
+  teste2(retornarParOuImpar(numero));
+
+</script>
+</body>
+</html>
